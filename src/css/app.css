@@ -1,0 +1,258 @@
+.toolbar-bottom:after, .ios .toolbar-bottom-ios:after, .md .toolbar-bottom-md:after, .aurora .toolbar-bottom-aurora:after {
+    background: transparent;
+}
+
+.swiper-slide {
+    background: #fff;
+    text-align: center;
+    font-size: 18px;
+    line-height: 200px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+}
+.logoimage{
+    margin-right: 5px;
+}
+ .templelogo{
+     margin-left: -20px; 
+} 
+.profilelogo{
+    margin-left:-10px;
+}
+.purohitlogo{
+    margin-right: 20px;
+}
+.confirmbookinglogo{
+     margin-left: -40px;
+}
+.header-detail{
+    display: flex !important;
+    justify-content: left !important;
+    align-items: left !important;
+}
+
+.home-slider {
+    max-height: 230px;
+}
+.home-card{
+    margin-top: -30px !important;
+    max-height: 180px;
+    overflow-y: auto;
+    border-top: 3px solid #f27d0d;
+    border-radius: 0px 20px 0px 20px;
+    box-shadow: 3px 3px 5px;
+}
+.home-card .item-subtitle{
+    font-size: 10px;
+}
+.home-card .item-title{
+    font-size: 13px;
+}
+.home-card .item-text{
+    font-size: 10px;
+}
+.simple-list li:after, .links-list a:after, .list .item-inner:after {
+    height: 2px;
+}
+.home-card .item-inner{
+    padding-top: 2px;
+    padding-bottom: 1px;
+}
+.header-img img {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.header-text {
+    font-size: 16px;
+    color: #fff !important;
+}
+.header-bg {
+    background: #9a3200 !important;
+}
+.header-detail img{
+    width: 24px;
+    border-radius: 50%;
+}
+.header-detail{
+    font-size: 16px;
+    color: #fff;
+}
+.navbar-bg {
+    background: #ff9e0e!important;
+}
+.temple-list, .purohit-list {
+    margin: 0;
+} 
+.temple-list .item-title{
+    font-size: 16px;
+    color: #f27d0d;
+    font-weight: 500 !important;
+}
+
+.temple-list .item-subtitle{
+    font-size: 12px;
+}
+.temple-list .item-text{
+    font-size: 12px;
+}
+.purohit-list .item-title{
+    font-size: 16px;
+    color: #f27d0d;
+    font-weight: 500 !important;
+}
+.purohit-list .item-subtitle{
+    font-size: 12px;
+}
+.purohit-list .item-text{
+    font-size: 12px;
+}
+.book-now {
+    width: fit-content;
+}
+.bottom-nav-text {
+    font-size: 10px;
+    text-transform: uppercase;
+}
+.bottom-nav-icon {
+    font-size: 25px;
+}
+.custom-tabbar {
+    background: #4e4e4e !important;
+}
+.custom-tabbar .tab-link{
+    color: #cecece !important;
+}
+.custom-tabbar .tab-link-active{
+    color: #FFF !important;
+}
+.custom-side-menu {
+    background: #6b6b6b;
+}
+.custom-side-menu ul {
+    background: transparent;
+}
+.custom-side-menu li {
+    color: #fff;
+    cursor: pointer;
+}
+.side-nav-logo {
+    text-align: center;
+    margin-bottom: -40px;
+}
+.side-nav-text {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: large;
+}
+.custom-bg {
+    background-color: #ffffff;
+    /*background-image: url('../assets/img/final.jpg');*/
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card-badge {
+    text-align: center;
+    background: #f27d0d;
+    padding: 5px 5px 5px 5px;
+    width: 150px;
+    border-radius: 0px 25px 0px 25px;
+    margin-top: 15px;
+    z-index: 4;
+    color: #fff;
+    margin-left: 35px;
+}
+.list-homepage {
+    margin-top: 10px !important;
+}
+.home-swiper {
+    width: 95%;
+    border:3px solid #f27d0d;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px;
+    margin-top: 5px;
+}
+.temple-image {
+    border: 2px solid #f27d0d;
+    border-radius: 5px;
+}
+.timings-alignment {
+    margin: 5px 2px;
+}
+.wid-140 {
+    width:140px;
+}
+
+.toast {
+    opacity: 1 !important;
+  }
+  
+  .toast-success {
+    font-weight: 600;
+    font-size: 16px;
+  }
+  
+  .toast-warning {
+    font-weight: 600;
+    font-size: 16px;
+  }
+  
+  .toast-info {
+    font-weight: 600;
+    font-size: 16px;
+  }
+  
+  .toast-error {
+    font-weight: 600;
+    font-size: 16px;
+  }
+  .toast {
+    left: 0 !important;
+  }
+  .toolbar {
+    position: fixed !important;
+  }
+  .toast {
+    max-width: 80% !important;
+    margin: 0 auto;
+  }
+  
+  #toast-container {
+    z-index: 99999999 !important;
+  }
+  
+  .toast-message {
+    color: #fff;
+  }
+  
+  .toast-success {
+    background-color: #51a351 !important;
+  }
+  .toast-error {
+    background-color: #bd362f !important;
+  }
+  .toast-info {
+    background-color: #2f96b4 !important;
+  }
+  .toast-warning {
+    background-color: #f89406 !important;
+  }
+  .toast-close-button {
+    display: inline-block;
+    text-align: right;
+  }
+  
+ .preloader-backdrop{
+    opacity: 0.3 !important;
+    background: grey;
+}
+.link-data:hover{
+    color:#b568a0;
+}
+
+
